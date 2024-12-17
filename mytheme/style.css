@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #BF7330;
+}
+.name{
+    font-weight: 700;
+    font-size: 16px;
+}
+header {
+  background-color: #ffb573;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+.a_main{
+    text-decoration:underline;
+}
+a:hover{
+    color: #BF7330;
+}
+.logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 10px;
+}
+
+.content img {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content .text {
+  background: #ffd273;
+  flex: 1;
+}
+.text ul{
+    margin: 20px;
+
+}
+.box {
+  display: flex;
+  width: 100%;
+  background-color: #BF7330;
+  margin-bottom: 30px;
+
+}
+.video_resept a{
+    padding: 10px;
+    background: #FFD273;
+    text-align: start;
+}
+.video_resept{
+    margin-top: 10px;
+}
+footer{
+    display: flex;
+    background-color: #ffb573;
+    justify-content: space-between;
+}
+
+footer ul li img{
+    width: 100px;
+    height: 100px;
+}
+.title_li{
+    font-weight: 700;
+    font-size: 20px;
+}
+footer li{
+    margin: 10px;
+    list-style: none;
+}
+@media (max-width: 860px) {
+  .container {
+    display: block;
+    }
+}
